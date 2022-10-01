@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+    font-family: cursive;
+}
+*{background-attachment: fixed;}
+body {
+    background-image: linear-gradient(to bottom, rgb(178, 178, 238), rgb(107, 107, 199), rgb(198, 115, 198));
+}
+
+main{
+    border-radius: 9%;
+    background-color: rgb(173, 236, 236);
+    box-shadow: 10px 10px 20px rgb(212, 43, 130); /* lado, baixo, espalhamento, cor*/
+    width: 600px;
+    padding: 2%; /* pode colocar em px também//aumenta a distãncia do texto para a box */
+    margin: auto; /*deixa no centro?Sim*/
+}
+h1{text-align: center; 
+    color: rgb(209, 113, 129); 
+    /*background-image: linear-gradient(rgb(145, 94, 103), rgb(145, 34, 34));*/ 
+    border-radius: 25%;
+    text-shadow: 2px 2px 2px black;
+}
+h2{
+    text-align: justify; color: rgb(159, 141, 37);
+}
+
+p{text-align: justify;}

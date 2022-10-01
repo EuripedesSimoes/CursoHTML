@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.head{
+    background-image: linear-gradient(gray, rgb(50, 65, 74));
+}
+.main_head_font{
+    height: 60px;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(218, 218, 218, 0.764);
+}
+.main_head_corpo {
+    padding: 20px 10px;
+    margin: 10px;
+    text-align: center;
+}
+.li_decor {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+    /*color: rgb(197, 197, 197);*/
+}
+.posit {
+    position: fixed;
+}
+
+._1h2 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;} 
+._1p {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}

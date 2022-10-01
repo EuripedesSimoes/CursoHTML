@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang=pt-br>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animação com hover</title>
+    <link rel="stylesheet" href="style_id.css">
+    <style>
+        div>h1 {
+            color: blue;
+            display: none;
+        }
+
+        /* Criando um Hover com uma "caixa"/"dropbox" */
+        div:hover>h1 {
+            display: block;
+            color: white;
+            background-color: rgba(255, 0, 0, 0.704);
+            width: 150px;
+            height: 150px;
+        }
+
+        div:hover {
+            color: red;
+        }
+
+        div>img {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="font-size: 1.5em;">Passe o mouse aqui</div>
+    <h1>Título Principal</h1>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur commodi laudantium, blanditiis tenetur
+        nam?</h2>
+    <h1>Titulo normal</h1>
+    <h1>CAGADA UNIVERSASL, CRIEI ANIMAÇÃO SEM QUERER USANDO
+    </h1>
+    <p>Paragrafo normal</p>
+    <div>
+        <h1 class="div01">Texto oculto do H1</h1>
+        <h2>Texto oculto do H2</h2>
+    </div>
+    <p>Fim..,</p>
+    <!--<h1>TESTE PARA ANIMAÇÃO COM IMAGEM</h1>
+    <div>
+        <img class="div-anim" src="../ex001/carlospescocudo.jpg" alt="carlos">
+    </div>*/-->
+</body>
+
+</html>

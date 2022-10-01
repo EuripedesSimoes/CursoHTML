@@ -1,0 +1,50 @@
+@charset "UFT-8";
+
+/*
+Em html é "id" // em css é "#"
+
+Em html é "class" // em css é "."
+*/
+h1#Principal 
+{
+    color: blue;
+}
+h1 { color: aqua;}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cor {
+    color: violet;
+}
+
+.cor_basica {
+    color: rgb(38, 131, 38);
+}
+.cor_intermediaria {
+    color: rgb(177, 171, 52);
+}
+.cor_avançada {
+    color: rgb(131, 38, 38);
+}
+.cor_fundo {
+    background-color: rgb(40, 53, 40);
+}
+.div01 {
+    border: 3px solid black;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    text-align: center;
+    background-color: darkgray;
+}
+.div_anim {
+    border: 10px solid black;
+    padding: 8px;
+    height: 80px;
+    width: 80px;
+}
+a:hover {
+    text-decoration: dashed;
+}

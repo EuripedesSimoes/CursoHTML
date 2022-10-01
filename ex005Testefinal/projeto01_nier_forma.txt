@@ -1,0 +1,27 @@
+<header> sobre nier 
+<div>menus/nav interativos com o :hover (saga nier; nier 2010; nier automata 2017; nier replicant 2020)
+--decoração do display:inline;
+--margin ajustada, text/box-shadow
+-- <div>
+</header>
+
+<main>
+--decoração padrao, com background-image (ficando transparente)
+--padding (pra dar aumento)
+--sombreamento com box-shadow e text-shadow
+</main>
+
+-img da capa do jogo
+<h2>apresentando oque é nier automata<h2>
+<p>sinopse do jogo</p>
+-continuar apresentando o jogo
+-criar sessão dos personagens
+-criar uma lista das musicas, com links para youtube
+//<aside> lista de músicas </aside>
+
+
+<footer>
+--decoração padrao, com background-image (ficando transparente)
+--padding (pra dar aumento)
+--sombreamento com box-shadow e text-shadow
+</footer>

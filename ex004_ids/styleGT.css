@@ -1,0 +1,95 @@
+@charset "UTF-8";
+* {
+    background-attachment: fixed;
+}
+body > div {
+    background-color: white;
+}
+
+body{
+background-image:linear-gradient(rgba(24, 51, 48, 0.795), rgb(123, 129, 148),lightgray);
+padding: 20px;
+margin: 0px;
+}
+header{
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom, rgb(98, 98, 98), rgb(83, 83, 83), lightgray);
+    padding: 10px;
+    margin: 10px;
+    border: 0px;
+}
+header > a {
+    padding: 10px;
+    margin: 40px;
+    text-decoration: none;
+    color: darkblue;
+    background-color: rgb(149, 149, 149);
+    border-radius: 5px;
+}
+header > a:hover {text-decoration: dashed; color: red; font-weight: bold;}
+
+header > div > h2 {
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(41, 62, 83);
+}
+header > div > h2:hover{color: white;}
+
+header > div > p{
+    font-family: cursive;
+    color: aquamarine;
+    border-radius: 5px;
+}
+header > div > p{
+    background-color: rgb(40, 125, 122);
+    padding: 10px;
+    margin: 25px;
+}
+main > div > p{
+    background-color: aliceblue;
+    padding: 8px;
+    margin: 3px;
+    font-family: cursive;
+    border-radius: 5px;
+}
+
+main{
+    background-image: linear-gradient(to bottom, rgb(136, 136, 136), rgb(32, 32, 32));
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+footer{
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 20px;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.prime {
+    font-family: fantasy;
+    font-size: 1.9em;
+    text-align: justify;
+    color: rgb(42, 38, 38);
+    background-color: gray;
+    height: 40px;
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/*
+background-image: linear-gradient(to bottom, black, rgb(103, 95, 95), gray;)
+background-image: linear-gradient(to bottom, rgb(178, 178, 238), rgb(107, 107, 199), rgb(198, 115, 198));
+*/
